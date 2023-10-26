@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "Sandbox.csproj", "{BFC8B724-5783-4BF7-BC79-DD2CF8DFD7B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC8B724-5783-4BF7-BC79-DD2CF8DFD7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC8B724-5783-4BF7-BC79-DD2CF8DFD7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC8B724-5783-4BF7-BC79-DD2CF8DFD7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC8B724-5783-4BF7-BC79-DD2CF8DFD7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC58FC6-B5E4-4F42-BAC1-628CBCFC0CBC}
+	EndGlobalSection
+EndGlobal

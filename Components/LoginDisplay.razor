@@ -1,0 +1,16 @@
+﻿<AuthorizeView>
+    <Authorized>
+        authorized
+    </Authorized>
+    <NotAuthorized>
+        not authorized
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    public string GetUserName(AuthenticationState context)
+    {
+        string userName = "hello world";// context.User.Identity?.GetUserFromEmail();
+        return userName;
+    }
+}

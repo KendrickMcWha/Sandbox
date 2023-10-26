@@ -1,0 +1,28 @@
+﻿@inject AuthenticationStateProvider GetAuthenticationStateAsync
+
+<AuthorizeView>
+    <Authorized>
+        @GetUserName authorized
+    </Authorized>
+    <NotAuthorized>
+        not authorized
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private string UserName { get; set; } = "1234";
+    protected async override Task OnInitializedAsync()
+    {
+        // var authstate = await GetAuthenticationStateAsync.GetAuthenticationStateAsync();
+        // var user = authstate.User;
+        // var name = user.Identity.Name;
+
+        // UserName = name ?? "not found";
+    }
+
+    public string GetUserName(AuthenticationState context)
+    {
+        string userName = string.Empty;// context.User.
+        return userName;
+    }
+}
